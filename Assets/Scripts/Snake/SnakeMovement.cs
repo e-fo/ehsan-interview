@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,7 @@ public class SnakeMovement : MonoBehaviour
     [SerializeField] float _velocity;
 
     private Vector2 _direction;
+    //private Vector2 _newDir;
 
     private void OnEnable()
     {
